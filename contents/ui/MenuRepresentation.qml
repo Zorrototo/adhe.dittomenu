@@ -45,7 +45,7 @@ import org.kde.plasma.plasmoid 2.0
 
 Item{
     id: main
-    property int sizeImage: Kirigami.Units.iconSizes.large * 2.5
+    property int sizeImage: Kirigami.Units.iconSizes.large * 2
 
     onVisibleChanged: {
         root.visible = !root.visible
@@ -273,36 +273,53 @@ Item{
                     ToolTip.text: i18n("System Preferences")
                 }
 
+                PC3.ToolButton {
+                    icon.name:  "system-upgrade-symbolic"
+                    onClicked: executable.exec("konsole --noclose -e 'sudo pacman -Syu'")
+                    ToolTip.delay: 200
+                    ToolTip.timeout: 1000
+                    ToolTip.visible: hovered
+                    ToolTip.text: i18n("System update")
+                }
+
                 Item{
                     Layout.fillWidth: true
                 }
 
                 PC3.ToolButton {
-                    icon.name:  "user-home"
-                    onClicked: logic.openUrl("file:///usr/share/applications/org.kde.dolphin.desktop")
+                    icon.name:  "system-log-out-symbolic"
+                    onClicked: executable.exec("qdbus org.kde.Shutdown /Shutdown logout")
                     ToolTip.delay: 200
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
-                    ToolTip.text: i18n("User Home")
+                    ToolTip.text: i18n("Log Out")
                 }
 
                 PC3.ToolButton {
-                    icon.name:  "system-lock-screen"
-                    onClicked: pmEngine.performOperation("lockScreen")
-                    enabled: pmEngine.data["Sleep States"]["LockScreen"]
+                    icon.name:  "system-suspend-symbolic"
+                    onClicked: executable.exec("systemctl suspend")
                     ToolTip.delay: 200
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
-                    ToolTip.text: i18n("Lock Screen")
+                    ToolTip.text: i18n("Suspend")
                 }
 
                 PC3.ToolButton {
-                    icon.name:   "system-shutdown"
+                    icon.name:  "system-restart-symbolic"
+                    onClicked: executable.exec("systemctl reboot")
+                    ToolTip.delay: 200
+                    ToolTip.timeout: 1000
+                    ToolTip.visible: hovered
+                    ToolTip.text: i18n("Restart")
+                }
+
+                PC3.ToolButton {
+                    icon.name:   "system-shutdown-symbolic"
                     onClicked: pmEngine.performOperation("requestShutDown")
                     ToolTip.delay: 200
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
-                    ToolTip.text: i18n("Leave ...")
+                    ToolTip.text: i18n("Shutdown")
                 }
             }
 
@@ -314,7 +331,7 @@ Item{
                 }
                 level: 1
                 color: Kirigami.Theme.textColor
-                text: i18n("Hi, ")+ kuser.fullName
+                text: kuser.fullName
                 font.weight: Font.Bold
                 visible: Plasmoid.configuration.showInfoUser
             }

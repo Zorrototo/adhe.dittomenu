@@ -77,7 +77,7 @@
        <default>true</default>
    </entry>   
     <entry name="showFavoritesFirst" type="Bool">
-       <default>false</default>
+       <default>true</default>
    </entry>
     <entry name="favoritesPortedToKAstats" type="Bool">
       <label>Are the favorites ported to use KActivitiesStats to allow per-activity favorites</label>
@@ -85,7 +85,7 @@
     </entry>
 
     <entry name="showInfoUser" type="Bool">
-    <default>true</default>
+    <default>false</default>
     </entry>
 
   </group>
