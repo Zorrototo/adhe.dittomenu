@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
-"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
-"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2024-08-29 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Edward Karate <edward.karate@ya.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -18,32 +18,12 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: ../metadata.desktop
-msgid "Ditto Menu"
-msgstr "Ditto Menu"
+msgid "Menu ditto"
+msgstr ""
 
 #: ../metadata.desktop
-msgid "A configurable launcher menu"
-msgstr "Настраиваемое меню приложений"
-
-#: ../contents/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Убрать из избранного"
-
-#: ../contents/code/tools.js
-msgid "Add to Favorites"
-msgstr "Добавить в избранное"
-
-#: ../contents/code/tools.js
-msgid "On All Activities"
-msgstr "По всем видам деятельности"
-
-#: ../contents/code/tools.js
-msgid "On The Current Activity"
-msgstr "О текущей деятельности"
-
-#: ../contents/code/tools.js
-msgid "Show In Favorites"
-msgstr "Показать в Избранном"
+msgid "Configurable grid of application"
+msgstr ""
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -55,13 +35,33 @@ msgstr "Значок"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose..."
-msgstr "Выбрать..."
+msgid "Choose…"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Очистить значок"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon size:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Small"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Medium"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Large"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Huge"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Show favorites first"
@@ -96,6 +96,10 @@ msgid "Number of rows"
 msgstr "Количество строк"
 
 #: ../contents/ui/ConfigGeneral.qml
+msgid "Show user"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
 msgid "Unhide all hidden applications"
 msgstr "Показать все скрытые приложения"
 
@@ -103,29 +107,29 @@ msgstr "Показать все скрытые приложения"
 msgid "Unhidden!"
 msgstr "Показаны!"
 
-#: ../contents/ui/main.qml
-msgid "Edit Applications..."
-msgstr "Редактировать меню..."
-
 #: ../contents/ui/MenuRepresentation.qml
 msgid "System Preferences"
 msgstr "Параметры системы"
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
-msgstr "Домашняя папка"
+msgid "System update"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Lock Screen"
-msgstr "Заблокировать"
+msgid "Log Out"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Leave ..."
-msgstr "Выход ..."
+msgid "Suspend"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Hi, "
-msgstr "Привет, "
+msgid "Restart"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Shutdown"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "Type here to search ..."
@@ -139,45 +143,26 @@ msgstr "Избранное"
 msgid "All apps"
 msgstr "Все приложения"
 
-#~ msgctxt "@action"
-#~ msgid "Lock Screen"
-#~ msgstr "Заблокировать"
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Убрать из избранного"
 
-#~ msgid "Behavior"
-#~ msgstr "Поведение"
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Добавить в избранное"
 
-#~ msgid "Show applications as:"
-#~ msgstr "Показывать приложения в виде:"
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "По всем видам деятельности"
 
-#~ msgid "Name only"
-#~ msgstr "Только имя"
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
 
-#~ msgid "Description only"
-#~ msgstr "Только описание"
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
 
-#~ msgid "Name (Description)"
-#~ msgstr "Имя (Описание)"
-
-#~ msgid "Description (Name)"
-#~ msgstr "Описание (Имя)"
-
-#~ msgid "Menu position:"
-#~ msgstr "Позиция меню"
-
-#~ msgid "Search"
-#~ msgstr "Поиск"
-
-#~ msgid "Expand search to bookmarks, files and emails"
-#~ msgstr "Расширить поиск по закладкам, файлам и почте"
-
-#~ msgid "Show user icon"
-#~ msgstr "Показать иконку пользователя"
-
-#~ msgid "Grid"
-#~ msgstr "Сетка"
-
-#~ msgid "Number of columns in grid"
-#~ msgstr "Количество колонок в сетке"
-
-#~ msgid "Number of rows in grid"
-#~ msgstr "Количество строк в сетке"
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""

@@ -4,11 +4,11 @@ With KDE Frameworks v5.37 and above, translations are bundled with the `*.plasmo
 
 ## Install Translations
 
-Go to `~/.local/share/plasma/plasmoids/org.kde.plasma.dittomenu/translate/` and run `sh ./build --restartplasma`.
+Go to `~/.local/share/plasma/plasmoids/adhe.dittomenu/translate/` and run `sh ./build --restartplasma`.
 
 ## New Translations
 
-1. Fill out [`template.pot`](template.pot) with your translations then open a [new issue](https://github.com/Zren/plasma-applet-tiledmenu/issues/new), name the file `spanish.txt`, attach the txt file to the issue (drag and drop).
+1. Fill out [`template.pot`](template.pot) with your translations then open a [new issue](https://github.com/issues/new), name the file `spanish.txt`, attach the txt file to the issue (drag and drop).
 
 Or if you know how to make a pull request
 
@@ -35,11 +35,11 @@ Or if you know how to make a pull request
 ## Status
 |  Locale  |  Lines  | % Done|
 |----------|---------|-------|
-| Template |      30 |       |
-| fr       |   29/30 |   96% |
-| ko       |   27/30 |   90% |
-| nl       |   20/30 |   66% |
-| pl       |   22/30 |   73% |
-| pt_BR    |   30/30 |  100% |
-| ru       |   30/30 |  100% |
-| tr       |   23/30 |   76% |
+| Template |      37 |       |
+| fr       |   37/37 |  100% |
+| ko       |   17/37 |   45% |
+| nl       |   14/37 |   37% |
+| pl       |   15/37 |   40% |
+| pt_BR    |   20/37 |   54% |
+| ru       |   20/37 |   54% |
+| tr       |   15/37 |   40% |

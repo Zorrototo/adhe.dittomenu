@@ -7,8 +7,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
-"Report-Msgid-Bugs-To: https://store.kde.org/p/1312669/\n"
-"POT-Creation-Date: 2023-05-01 16:59-0300\n"
+"Report-Msgid-Bugs-To: https://github.com\n"
+"POT-Creation-Date: 2024-08-29 18:57+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -21,32 +21,12 @@ msgstr ""
 "X-Source-Language: C\n"
 
 #: ../metadata.desktop
-msgid "Ditto Menu"
-msgstr "Ditto Menu"
+msgid "Menu ditto"
+msgstr ""
 
 #: ../metadata.desktop
-msgid "A configurable launcher menu"
-msgstr "Yapılandırılabilir bir başlatıcı menüsü"
-
-#: ../contents/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Favorilerden Çıkar"
-
-#: ../contents/code/tools.js
-msgid "Add to Favorites"
-msgstr "Favorilerden Ekle"
-
-#: ../contents/code/tools.js
-msgid "On All Activities"
-msgstr "Tüm Etkinliklerde"
-
-#: ../contents/code/tools.js
-msgid "On The Current Activity"
-msgstr "Mevcut Etkinlik Üzerine"
-
-#: ../contents/code/tools.js
-msgid "Show In Favorites"
-msgstr "Favorilerde Göster"
+msgid "Configurable grid of application"
+msgstr ""
 
 #: ../contents/config/config.qml
 msgid "General"
@@ -58,13 +38,33 @@ msgstr "Sİmge:"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
-msgid "Choose..."
-msgstr "Seçmek..."
+msgid "Choose…"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
 msgid "Clear Icon"
 msgstr "Simgeyi Temizle"
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Icon size:"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Small"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Medium"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Large"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
+msgid "Huge"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Show favorites first"
@@ -99,6 +99,10 @@ msgid "Number of rows"
 msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
+msgid "Show user"
+msgstr ""
+
+#: ../contents/ui/ConfigGeneral.qml
 msgid "Unhide all hidden applications"
 msgstr "Tüm gizli uygulamaları göster"
 
@@ -106,29 +110,29 @@ msgstr "Tüm gizli uygulamaları göster"
 msgid "Unhidden!"
 msgstr "Gizli!"
 
-#: ../contents/ui/main.qml
-msgid "Edit Applications..."
-msgstr "Uygulamaları Düzenle..."
-
 #: ../contents/ui/MenuRepresentation.qml
 msgid "System Preferences"
 msgstr "Sistem Tercihleri"
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "User Home"
-msgstr "Kullanıcı Ana Sayfası"
-
-#: ../contents/ui/MenuRepresentation.qml
-msgid "Lock Screen"
+msgid "System update"
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Leave ..."
+msgid "Log Out"
 msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
-msgid "Hi, "
-msgstr "Merhaba, "
+msgid "Suspend"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Restart"
+msgstr ""
+
+#: ../contents/ui/MenuRepresentation.qml
+msgid "Shutdown"
+msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "Type here to search ..."
@@ -142,45 +146,26 @@ msgstr ""
 msgid "All apps"
 msgstr ""
 
-#~ msgctxt "@action"
-#~ msgid "Lock Screen"
-#~ msgstr "Kilit Ekranı"
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Favorilerden Çıkar"
 
-#~ msgid "Behavior"
-#~ msgstr "Davranış"
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Favorilerden Ekle"
 
-#~ msgid "Show applications as:"
-#~ msgstr "Uygulamaları şu şekilde göster:"
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
 
-#~ msgid "Name only"
-#~ msgstr "Sadece isim"
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
 
-#~ msgid "Description only"
-#~ msgstr "Yalnızca açıklama"
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
 
-#~ msgid "Name (Description)"
-#~ msgstr "İsim (Açıklama)"
-
-#~ msgid "Description (Name)"
-#~ msgstr "Açıklama (İsim)"
-
-#~ msgid "Menu position:"
-#~ msgstr "Menü konumu:"
-
-#~ msgid "Search"
-#~ msgstr "Ara"
-
-#~ msgid "Expand search to bookmarks, files and emails"
-#~ msgstr "Aramayı yer imlerine, dosyalara ve e-postalara genişletin"
-
-#~ msgid "Show user icon"
-#~ msgstr "Kullanıcı simgesini göster"
-
-#~ msgid "Grid"
-#~ msgstr "Izgara"
-
-#~ msgid "Number of columns in grid"
-#~ msgstr "Izgaradaki sütun sayısı"
-
-#~ msgid "Number of rows in grid"
-#~ msgstr "Izgaradaki satır sayısı"
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
