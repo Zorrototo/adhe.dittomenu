@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
 "Report-Msgid-Bugs-To: https://github.com\n"
-"POT-Creation-Date: 2024-08-29 18:57+0200\n"
+"POT-Creation-Date: 2024-08-29 19:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: omano\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -29,6 +29,26 @@ msgstr "Une grille d'application configurable"
 msgid "General"
 msgstr "Général"
 
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Enlever des Favoris"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Ajouter aux Favoris"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Sur toutes les Activités"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr "Sur l'activité en cours"
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr "Voir dans les favoris"
+
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Icon:"
 msgstr "Icône:"
@@ -36,7 +56,7 @@ msgstr "Icône:"
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Open icon chooser dialog"
 msgid "Choose…"
-msgstr "Sélectionner"
+msgstr "Sélectionner…"
 
 #: ../contents/ui/ConfigGeneral.qml
 msgctxt "@item:inmenu Reset icon to default"
@@ -107,6 +127,10 @@ msgstr "Ne plus cacher les applications"
 msgid "Unhidden!"
 msgstr "Plus cachées!"
 
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr "Editer les applications…"
+
 #: ../contents/ui/MenuRepresentation.qml
 msgid "System Preferences"
 msgstr "Préférences Système"
@@ -142,27 +166,3 @@ msgstr "Favoris"
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
 msgstr "Toutes les applications"
-
-#: ../contents/ui/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Enlever des Favoris"
-
-#: ../contents/ui/code/tools.js
-msgid "Add to Favorites"
-msgstr "Ajouter aux Favoris"
-
-#: ../contents/ui/code/tools.js
-msgid "On All Activities"
-msgstr "Sur toutes les Activités"
-
-#: ../contents/ui/code/tools.js
-msgid "On the Current Activity"
-msgstr "Sur l'activité en cours"
-
-#: ../contents/ui/code/tools.js
-msgid "Show in Favorites"
-msgstr "Voir dans les favoris"
-
-#: ../contents/ui/main.qml
-msgid "Edit Applications…"
-msgstr "Editer les applications…"

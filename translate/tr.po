@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
 "Report-Msgid-Bugs-To: https://github.com\n"
-"POT-Creation-Date: 2024-08-29 18:57+0200\n"
+"POT-Creation-Date: 2024-08-29 19:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -31,6 +31,26 @@ msgstr ""
 #: ../contents/config/config.qml
 msgid "General"
 msgstr "Genel"
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Favorilerden Çıkar"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Favorilerden Ekle"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Tüm Etkinliklerde"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Icon:"
@@ -110,6 +130,10 @@ msgstr "Tüm gizli uygulamaları göster"
 msgid "Unhidden!"
 msgstr "Gizli!"
 
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
 #: ../contents/ui/MenuRepresentation.qml
 msgid "System Preferences"
 msgstr "Sistem Tercihleri"
@@ -144,28 +168,4 @@ msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
-msgstr ""
-
-#: ../contents/ui/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Favorilerden Çıkar"
-
-#: ../contents/ui/code/tools.js
-msgid "Add to Favorites"
-msgstr "Favorilerden Ekle"
-
-#: ../contents/ui/code/tools.js
-msgid "On All Activities"
-msgstr "Tüm Etkinliklerde"
-
-#: ../contents/ui/code/tools.js
-msgid "On the Current Activity"
-msgstr ""
-
-#: ../contents/ui/code/tools.js
-msgid "Show in Favorites"
-msgstr ""
-
-#: ../contents/ui/main.qml
-msgid "Edit Applications…"
 msgstr ""

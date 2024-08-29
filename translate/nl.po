@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
 "Report-Msgid-Bugs-To: https://github.com\n"
-"POT-Creation-Date: 2024-08-29 18:57+0200\n"
+"POT-Creation-Date: 2024-08-29 19:16+0200\n"
 "PO-Revision-Date: 2022-01-01 20:09+0100\n"
 "Last-Translator: Heimen Stoffels <vistausss@fastmail.com>\n"
 "Language-Team: \n"
@@ -29,6 +29,26 @@ msgstr ""
 #: ../contents/config/config.qml
 msgid "General"
 msgstr "Algemeen"
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Verwijderen uit favorieten"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Toevoegen aan favorieten"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "Op alle activiteiten"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Icon:"
@@ -108,6 +128,10 @@ msgstr "Alle verborgen programma's zichtbaar maken"
 msgid "Unhidden!"
 msgstr "Alles programma's zijn weer zichtbaar!"
 
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
 #: ../contents/ui/MenuRepresentation.qml
 msgid "System Preferences"
 msgstr "Systeeminstellingen"
@@ -142,28 +166,4 @@ msgstr ""
 
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
-msgstr ""
-
-#: ../contents/ui/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Verwijderen uit favorieten"
-
-#: ../contents/ui/code/tools.js
-msgid "Add to Favorites"
-msgstr "Toevoegen aan favorieten"
-
-#: ../contents/ui/code/tools.js
-msgid "On All Activities"
-msgstr "Op alle activiteiten"
-
-#: ../contents/ui/code/tools.js
-msgid "On the Current Activity"
-msgstr ""
-
-#: ../contents/ui/code/tools.js
-msgid "Show in Favorites"
-msgstr ""
-
-#: ../contents/ui/main.qml
-msgid "Edit Applications…"
 msgstr ""

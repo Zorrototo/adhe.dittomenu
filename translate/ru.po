@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: dittomenu\n"
 "Report-Msgid-Bugs-To: https://github.com\n"
-"POT-Creation-Date: 2024-08-29 18:57+0200\n"
+"POT-Creation-Date: 2024-08-29 19:16+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Edward Karate <edward.karate@ya.ru>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -28,6 +28,26 @@ msgstr ""
 #: ../contents/config/config.qml
 msgid "General"
 msgstr "Общие"
+
+#: ../contents/ui/code/tools.js
+msgid "Remove from Favorites"
+msgstr "Убрать из избранного"
+
+#: ../contents/ui/code/tools.js
+msgid "Add to Favorites"
+msgstr "Добавить в избранное"
+
+#: ../contents/ui/code/tools.js
+msgid "On All Activities"
+msgstr "По всем видам деятельности"
+
+#: ../contents/ui/code/tools.js
+msgid "On the Current Activity"
+msgstr ""
+
+#: ../contents/ui/code/tools.js
+msgid "Show in Favorites"
+msgstr ""
 
 #: ../contents/ui/ConfigGeneral.qml
 msgid "Icon:"
@@ -107,6 +127,10 @@ msgstr "Показать все скрытые приложения"
 msgid "Unhidden!"
 msgstr "Показаны!"
 
+#: ../contents/ui/main.qml
+msgid "Edit Applications…"
+msgstr ""
+
 #: ../contents/ui/MenuRepresentation.qml
 msgid "System Preferences"
 msgstr "Параметры системы"
@@ -142,27 +166,3 @@ msgstr "Избранное"
 #: ../contents/ui/MenuRepresentation.qml
 msgid "All apps"
 msgstr "Все приложения"
-
-#: ../contents/ui/code/tools.js
-msgid "Remove from Favorites"
-msgstr "Убрать из избранного"
-
-#: ../contents/ui/code/tools.js
-msgid "Add to Favorites"
-msgstr "Добавить в избранное"
-
-#: ../contents/ui/code/tools.js
-msgid "On All Activities"
-msgstr "По всем видам деятельности"
-
-#: ../contents/ui/code/tools.js
-msgid "On the Current Activity"
-msgstr ""
-
-#: ../contents/ui/code/tools.js
-msgid "Show in Favorites"
-msgstr ""
-
-#: ../contents/ui/main.qml
-msgid "Edit Applications…"
-msgstr ""
