@@ -267,7 +267,7 @@ Item{
                 PC3.ToolButton {
                     icon.name:  "configure"
                     onClicked: logic.openUrl("file:///usr/share/applications/systemsettings.desktop")
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("System Preferences")
@@ -275,8 +275,8 @@ Item{
 
                 PC3.ToolButton {
                     icon.name:  "system-upgrade-symbolic"
-                    onClicked: executable.exec("konsole --noclose -e 'sudo pacman -Syu'")
-                    ToolTip.delay: 200
+                    onClicked: executable.exec("konsole --noclose -e 'bash -c \"sudo pacman -Syu && sleep 1 && yay -Syu && echo; echo Done!\"'")
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("System update")
@@ -289,7 +289,7 @@ Item{
                 PC3.ToolButton {
                     icon.name:  "system-log-out-symbolic"
                     onClicked: executable.exec("qdbus org.kde.Shutdown /Shutdown logout")
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("Log Out")
@@ -298,7 +298,7 @@ Item{
                 PC3.ToolButton {
                     icon.name:  "system-suspend-symbolic"
                     onClicked: executable.exec("systemctl suspend")
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("Suspend")
@@ -307,7 +307,7 @@ Item{
                 PC3.ToolButton {
                     icon.name:  "system-restart-symbolic"
                     onClicked: executable.exec("systemctl reboot")
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("Restart")
@@ -316,7 +316,7 @@ Item{
                 PC3.ToolButton {
                     icon.name:   "system-shutdown-symbolic"
                     onClicked: pmEngine.performOperation("requestShutDown")
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("Shutdown")
@@ -428,7 +428,7 @@ Item{
                         searchField.text = ""
                         root.showFavorites = true
                     }
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("Favorites")
@@ -442,7 +442,7 @@ Item{
                         root.showFavorites = false
                         //<>allAppsGrid.scrollBar.flickableItem.contentY = 0;
                     }
-                    ToolTip.delay: 200
+                    ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
                     ToolTip.text: i18n("All apps")
@@ -465,7 +465,7 @@ Item{
                 dragEnabled: true
                 dropEnabled: true
                 width: rootItem.width
-                height: root.cellSizeHeight * Plasmoid.configuration.numberRows
+                height: root.cellSizeHeight * Plasmoid.configuration.numberRows + Kirigami.Units.gridUnit*2
                 focus: true
                 cellWidth:   root.cellSizeWidth
                 cellHeight:  root.cellSizeHeight
@@ -505,7 +505,7 @@ Item{
                     id: mainColumn
                     //width: root.cellSize *  Plasmoid.configuration.numberColumns + Kirigami.Units.gridUnit
                     width: rootItem.width
-                    height: root.cellSizeHeight * Plasmoid.configuration.numberRows
+                    height: root.cellSizeHeight * Plasmoid.configuration.numberRows + Kirigami.Units.gridUnit*2
 
                     property Item visibleGrid: allAppsGrid
 
@@ -520,7 +520,7 @@ Item{
 
                         //width: root.cellSize *  Plasmoid.configuration.numberColumns + Kirigami.Units.gridUnit
                         width: rootItem.width
-                        height: root.cellSizeHeight * Plasmoid.configuration.numberRows
+                        height: root.cellSizeHeight * Plasmoid.configuration.numberRows + Kirigami.Units.gridUnit*2
                         cellWidth:   root.cellSizeWidth
                         cellHeight:  root.cellSizeHeight
                         iconSize:    root.iconSize
@@ -541,7 +541,7 @@ Item{
                     ItemMultiGridView {
                         id: runnerGrid
                         width: rootItem.width
-                        height: root.cellSizeHeight * Plasmoid.configuration.numberRows
+                        height: root.cellSizeHeight * Plasmoid.configuration.numberRows + Kirigami.Units.gridUnit*2
                         cellWidth:   root.cellSizeWidth
                         cellHeight:  root.cellSizeHeight
                         enabled: (opacity == 1.0) ? 1 : 0
