@@ -37,7 +37,7 @@ FocusScope {
     property alias iconSize: gridView.iconSize
 
     property var horizontalScrollBarPolicy: PlasmaComponents.ScrollBar.AlwaysOff
-    property var verticalScrollBarPolicy: PlasmaComponents.ScrollBar.AlwaysOn
+    property var verticalScrollBarPolicy: PlasmaComponents.ScrollBar.AsNeeded
 
     onDropEnabledChanged: {
         if (!dropEnabled && "dropPlaceHolderIndex" in model) {

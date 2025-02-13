@@ -315,7 +315,7 @@ Item{
 
                 PC3.ToolButton {
                     icon.name:   "system-shutdown-symbolic"
-                    onClicked: pmEngine.performOperation("requestShutDown")
+                    onClicked: executable.exec("systemctl poweroff")
                     ToolTip.delay: 500
                     ToolTip.timeout: 1000
                     ToolTip.visible: hovered
@@ -505,7 +505,7 @@ Item{
                     id: mainColumn
                     //width: root.cellSize *  Plasmoid.configuration.numberColumns + Kirigami.Units.gridUnit
                     width: rootItem.width
-                    height: root.cellSizeHeight * Plasmoid.configuration.numberRows + Kirigami.Units.gridUnit*2
+                    height: root.cellSizeHeight * Plasmoid.configuration.numberRows
 
                     property Item visibleGrid: allAppsGrid
 
